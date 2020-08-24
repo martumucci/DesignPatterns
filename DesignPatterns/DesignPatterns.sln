@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID principles", "SOLID principles", "{EC6C388A-B1F6-415E-89E3-B3E0ED853883}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. SOLID principles", "1. SOLID principles", "{EC6C388A-B1F6-415E-89E3-B3E0ED853883}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{6ADCE98C-E86E-4BB5-817D-00578B4C1EB8}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegragationPrinciple", "InterfaceSegragationPrinciple\InterfaceSegragationPrinciple.csproj", "{EA9E2081-BED4-40BD-82C5-B2E711A85658}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{CEDBCCBD-380C-4105-B114-2775F4BF71E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Builder", "2. Builder", "{37D526B5-3BFE-4A4D-9298-2517131E5FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{DD64D100-AD28-43D2-BA85-E6F9E68D7116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{CEDBCCBD-380C-4105-B114-2775F4BF71E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEDBCCBD-380C-4105-B114-2775F4BF71E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEDBCCBD-380C-4105-B114-2775F4BF71E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD64D100-AD28-43D2-BA85-E6F9E68D7116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD64D100-AD28-43D2-BA85-E6F9E68D7116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD64D100-AD28-43D2-BA85-E6F9E68D7116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD64D100-AD28-43D2-BA85-E6F9E68D7116}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{D8DB3C03-DFF2-4E38-B7B7-FEDE120FC2C3} = {EC6C388A-B1F6-415E-89E3-B3E0ED853883}
 		{EA9E2081-BED4-40BD-82C5-B2E711A85658} = {EC6C388A-B1F6-415E-89E3-B3E0ED853883}
 		{CEDBCCBD-380C-4105-B114-2775F4BF71E7} = {EC6C388A-B1F6-415E-89E3-B3E0ED853883}
+		{DD64D100-AD28-43D2-BA85-E6F9E68D7116} = {37D526B5-3BFE-4A4D-9298-2517131E5FEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
