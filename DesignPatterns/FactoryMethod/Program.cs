@@ -5,6 +5,8 @@ using static System.Console;
 
 namespace FactoryMethod
 {
+    //  A Factory is a separate component which knows how to initialize types in a particular way
+
     //  You get to have an overload with the same sets of arguments, but with different descriptive names
     // and the names of the factory methods are also unique.
 
@@ -15,7 +17,8 @@ namespace FactoryMethod
             Cartesian,
             Polar
         }
-        public class Point
+
+        public static class PointFactory
         {
             //Factory method
             public static Point NewCartesianPoint(double x, double y)
@@ -28,9 +31,12 @@ namespace FactoryMethod
                 return new Point(rho * Math.Cos(theta), rho * Math.Sin(theta));
             }
 
+        }
+        public class Point
+        {
             private double x, y;
 
-            private Point(double a, double b)
+            public Point(double a, double b)
             {
                 x = a;
                 y = b;
@@ -41,7 +47,7 @@ namespace FactoryMethod
         }
         static void Main(string[] args)
         {
-            var point = Point.NewPolarPoint(1.0, Math.PI / 2);
+            var point = PointFactory.NewPolarPoint(1.0, Math.PI / 2);
             WriteLine(point);
         }
     }
