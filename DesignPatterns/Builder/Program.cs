@@ -89,7 +89,7 @@ namespace Builder
         HtmlElement root = new HtmlElement();
     }
 
-    public class Demo
+    public class Program
     {
         static void Main(string[] args)
         {
