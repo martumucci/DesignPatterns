@@ -7,6 +7,10 @@ namespace FactoryMethod
 {
     //  A Factory is a separate component which knows how to initialize types in a particular way
 
+    //  A Factory Method is a static method that creates objects
+    
+    //  Hierarchies of factories can be used to create related objects
+
     //  You get to have an overload with the same sets of arguments, but with different descriptive names
     // and the names of the factory methods are also unique.
 
