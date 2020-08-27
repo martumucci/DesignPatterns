@@ -5,6 +5,8 @@ using static System.Console;
 
 namespace FactoryMethod
 {
+    //  A Factory method is a static method that creates objects. It can be external or reside inside the object as an inner class
+
     //  A Factory is a separate component which knows how to initialize types in a particular way
 
     //  A Factory Method is a static method that creates objects
@@ -31,7 +33,6 @@ namespace FactoryMethod
             {
                 x = a;
                 y = b;
-
             }
 
             public static class Factory
@@ -50,6 +51,7 @@ namespace FactoryMethod
             }
 
         }
+
         static void Main(string[] args)
         {
             var point = Point.Factory.NewPolarPoint(1.0, Math.PI / 2);

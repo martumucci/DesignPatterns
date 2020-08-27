@@ -6,6 +6,8 @@ namespace AbstractFactory
 {
     //  It lets you produce families of related objects without specifying their concrete classes.
 
+    //  It gives out abstract objecs as opposed to concrete objects
+
     public interface IHotDrink
     {
         void Consume();
@@ -27,6 +29,14 @@ namespace AbstractFactory
         }
     }
 
+    internal class Mate : IHotDrink
+    {
+        public void Consume()
+        {
+            Console.WriteLine("Good mate!");
+        }
+    }
+
     public interface IHotDrinkFactory
     {
         IHotDrink Prepare(int amount);
@@ -41,6 +51,15 @@ namespace AbstractFactory
         }
     }
 
+    internal class MateFactory : IHotDrinkFactory
+    {
+        public IHotDrink Prepare(int amount)
+        {
+            Console.WriteLine("Prepare your mate!");
+            return new Mate();
+        }
+    }
+
     internal class CoffeeFactory : IHotDrinkFactory
     {
         public IHotDrink Prepare(int amount)
@@ -52,9 +71,9 @@ namespace AbstractFactory
 
     public class HotDrinkMachine
     {
-        public enum AvailableDrink // violates open-closed
+        public enum AvailableDrink 
         {
-            Coffee, Tea
+            Coffee, Tea, Mate
         }
 
         private Dictionary<AvailableDrink, IHotDrinkFactory> factories =
