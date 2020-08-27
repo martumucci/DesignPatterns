@@ -23,15 +23,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Factory", "3. Factory", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{098B718E-3646-47BD-B9D8-3B2AD38F1531}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{4B89BC68-CCE9-4A02-8B81-52E229E4F4CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{4B89BC68-CCE9-4A02-8B81-52E229E4F4CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Prototype", "4. Prototype", "{A521AF1E-DEB5-4679-AF19-1152F5D96EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern.CopyConstructors", "PrototypePattern\PrototypePattern.CopyConstructors.csproj", "{D7FC2368-F8D4-475C-B0D9-4CF088E6348D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.CopyConstructors", "PrototypePattern\PrototypePattern.CopyConstructors.csproj", "{D7FC2368-F8D4-475C-B0D9-4CF088E6348D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern.DeepCopyInterface", "PrototypePattern.DeepCopyInterface\PrototypePattern.DeepCopyInterface.csproj", "{57947CB4-48FF-42D7-988F-B3C5E01C0E53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.DeepCopyInterface", "PrototypePattern.DeepCopyInterface\PrototypePattern.DeepCopyInterface.csproj", "{57947CB4-48FF-42D7-988F-B3C5E01C0E53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypePattern.CopyThroughSerialization", "PrototypePattern.CopyThroughSerialization\PrototypePattern.CopyThroughSerialization.csproj", "{8B446804-6669-4466-A84B-DD15955AF962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.CopyThroughSerialization", "PrototypePattern.CopyThroughSerialization\PrototypePattern.CopyThroughSerialization.csproj", "{8B446804-6669-4466-A84B-DD15955AF962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{0225AB3E-341E-4FB3-BF80-4C757A0DF40A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Implementation", "Singleton.Implementation\Singleton.Implementation.csproj", "{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,10 @@ Global
 		{8B446804-6669-4466-A84B-DD15955AF962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B446804-6669-4466-A84B-DD15955AF962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B446804-6669-4466-A84B-DD15955AF962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,7 @@ Global
 		{D7FC2368-F8D4-475C-B0D9-4CF088E6348D} = {A521AF1E-DEB5-4679-AF19-1152F5D96EF7}
 		{57947CB4-48FF-42D7-988F-B3C5E01C0E53} = {A521AF1E-DEB5-4679-AF19-1152F5D96EF7}
 		{8B446804-6669-4466-A84B-DD15955AF962} = {A521AF1E-DEB5-4679-AF19-1152F5D96EF7}
+		{4BAF70EC-3DD6-4D44-835B-39BC422A8F88} = {0225AB3E-341E-4FB3-BF80-4C757A0DF40A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
