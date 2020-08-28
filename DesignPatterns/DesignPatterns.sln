@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.DeepCopyIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.CopyThroughSerialization", "PrototypePattern.CopyThroughSerialization\PrototypePattern.CopyThroughSerialization.csproj", "{8B446804-6669-4466-A84B-DD15955AF962}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{0225AB3E-341E-4FB3-BF80-4C757A0DF40A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Singleton", "5. Singleton", "{0225AB3E-341E-4FB3-BF80-4C757A0DF40A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Implementation", "Singleton.Implementation\Singleton.Implementation.csproj", "{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}"
 EndProject
@@ -42,6 +42,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.PerThread", "Singleton.PerThread\Singleton.PerThread.csproj", "{69059A47-420B-4DFE-A2FF-03DD0A87CFE4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.AmbientContext", "Singleton.AmbientContext\Singleton.AmbientContext.csproj", "{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Adapter", "6. Adapter", "{1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Adapter", "Adapter.Adapter\Adapter.Adapter.csproj", "{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +113,10 @@ Global
 		{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +137,7 @@ Global
 		{4DF6A363-6B0B-43DE-8722-09A0F4A839A2} = {0225AB3E-341E-4FB3-BF80-4C757A0DF40A}
 		{69059A47-420B-4DFE-A2FF-03DD0A87CFE4} = {0225AB3E-341E-4FB3-BF80-4C757A0DF40A}
 		{8A511B3F-8C20-4AB4-915D-284E8CFF12CC} = {0225AB3E-341E-4FB3-BF80-4C757A0DF40A}
+		{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84} = {1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
