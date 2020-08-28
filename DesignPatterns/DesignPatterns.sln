@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.AdapterNoCaching", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.GenericValueAdapter", "Adapter.GenericValueAdapter\Adapter.GenericValueAdapter.csproj", "{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.DependencyInjection", "Adapter.DependencyInjection\Adapter.DependencyInjection.csproj", "{731DCC99-39D0-4FE9-8B00-F93B434B4795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731DCC99-39D0-4FE9-8B00-F93B434B4795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731DCC99-39D0-4FE9-8B00-F93B434B4795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731DCC99-39D0-4FE9-8B00-F93B434B4795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731DCC99-39D0-4FE9-8B00-F93B434B4795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +158,7 @@ Global
 		{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84} = {1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}
 		{A43B7035-AB02-463E-A857-EFAABA0BFD94} = {1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}
 		{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3} = {1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}
+		{731DCC99-39D0-4FE9-8B00-F93B434B4795} = {1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
