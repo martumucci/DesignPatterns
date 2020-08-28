@@ -37,15 +37,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Singleton", "5. Singleto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Implementation", "Singleton.Implementation\Singleton.Implementation.csproj", "{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.Monostate", "Singleton.Monostate\Singleton.Monostate.csproj", "{4DF6A363-6B0B-43DE-8722-09A0F4A839A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Monostate", "Singleton.Monostate\Singleton.Monostate.csproj", "{4DF6A363-6B0B-43DE-8722-09A0F4A839A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.PerThread", "Singleton.PerThread\Singleton.PerThread.csproj", "{69059A47-420B-4DFE-A2FF-03DD0A87CFE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.PerThread", "Singleton.PerThread\Singleton.PerThread.csproj", "{69059A47-420B-4DFE-A2FF-03DD0A87CFE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.AmbientContext", "Singleton.AmbientContext\Singleton.AmbientContext.csproj", "{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.AmbientContext", "Singleton.AmbientContext\Singleton.AmbientContext.csproj", "{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Adapter", "6. Adapter", "{1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Adapter", "Adapter.Adapter\Adapter.Adapter.csproj", "{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.AdapterWithCaching", "Adapter.Adapter\Adapter.AdapterWithCaching.csproj", "{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

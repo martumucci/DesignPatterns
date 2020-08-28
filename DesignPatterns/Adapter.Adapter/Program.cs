@@ -8,7 +8,7 @@ using System.Linq;
 using System.Numerics;
 using static System.Console;
 
-namespace Adapter.Adapter
+namespace Adapter.AdapterWithCaching
 {
     //  It is a construct which adapts an existing interface X to conform to the required interface Y.
 
