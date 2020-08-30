@@ -28,6 +28,13 @@ namespace Adapter.DependencyInjection
                 Console.WriteLine("Opening a file");
             }
         }
+        class DeleteCommand : ICommand
+        {
+            public void Execute()
+            {
+                Console.WriteLine("Delete a file");
+            }
+        }
         public class Button
         {
             private ICommand command;
@@ -77,6 +84,7 @@ namespace Adapter.DependencyInjection
             var b = new ContainerBuilder();
             b.RegisterType<SaveCommand>().As<ICommand>().WithMetadata("Name", "Save");
             b.RegisterType<OpenCommand>().As<ICommand>().WithMetadata("Name", "Open");
+            b.RegisterType<DeleteCommand>().As<ICommand>().WithMetadata("Name", "Delete");
             // b.RegisterType<Button>();
             // // b.RegisterAdapter<ICommand, Button>(cmd => new Button(cmd));
             b.RegisterAdapter<Meta<ICommand>, Button>(cmd => new Button(cmd.Value, (string)cmd.Metadata["Name"]));

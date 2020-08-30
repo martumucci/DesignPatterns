@@ -124,7 +124,7 @@ namespace Adapter.GenericValueAdapter
             var v2 = new Vector2i(2, 3);
 
             var result = v + v2;
-            var u = Vector3f.Create(3.5f, 2.2f, 1);
+            Vector3f u = Vector3f.Create(3.5f, 2.2f, 1);
         }
     }
 }
