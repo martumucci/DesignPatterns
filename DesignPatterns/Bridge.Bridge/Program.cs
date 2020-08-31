@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace Bridge.Bridge
 {
-    // It is a mechanisme that decouples an interface from an implementation.
+    // It is a mechanisme that decouples an interface from an implementation so that the two can vary independently.
 
     public interface IRenderer
     {
