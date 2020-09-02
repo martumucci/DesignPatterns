@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. SOLID principles", "1. SOLID principles", "{EC6C388A-B1F6-415E-89E3-B3E0ED853883}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. SOLID principles", "01. SOLID principles", "{EC6C388A-B1F6-415E-89E3-B3E0ED853883}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityPrinciple", "SingleResponsibilityPrinciple\SingleResponsibilityPrinciple.csproj", "{6ADCE98C-E86E-4BB5-817D-00578B4C1EB8}"
 EndProject
@@ -15,17 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegragationPrincip
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{CEDBCCBD-380C-4105-B114-2775F4BF71E7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Builder", "2. Builder", "{37D526B5-3BFE-4A4D-9298-2517131E5FEA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Builder", "02. Builder", "{37D526B5-3BFE-4A4D-9298-2517131E5FEA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{DD64D100-AD28-43D2-BA85-E6F9E68D7116}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Factory", "3. Factory", "{FE866F6F-0FCC-4829-B835-8815B1A3830B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Factory", "03. Factory", "{FE866F6F-0FCC-4829-B835-8815B1A3830B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{098B718E-3646-47BD-B9D8-3B2AD38F1531}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{4B89BC68-CCE9-4A02-8B81-52E229E4F4CB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Prototype", "4. Prototype", "{A521AF1E-DEB5-4679-AF19-1152F5D96EF7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Prototype", "04. Prototype", "{A521AF1E-DEB5-4679-AF19-1152F5D96EF7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.CopyConstructors", "PrototypePattern\PrototypePattern.CopyConstructors.csproj", "{D7FC2368-F8D4-475C-B0D9-4CF088E6348D}"
 EndProject
@@ -33,7 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.DeepCopyIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern.CopyThroughSerialization", "PrototypePattern.CopyThroughSerialization\PrototypePattern.CopyThroughSerialization.csproj", "{8B446804-6669-4466-A84B-DD15955AF962}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Singleton", "5. Singleton", "{0225AB3E-341E-4FB3-BF80-4C757A0DF40A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. Singleton", "05. Singleton", "{0225AB3E-341E-4FB3-BF80-4C757A0DF40A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Implementation", "Singleton.Implementation\Singleton.Implementation.csproj", "{4BAF70EC-3DD6-4D44-835B-39BC422A8F88}"
 EndProject
@@ -43,29 +43,41 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.PerThread", "Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.AmbientContext", "Singleton.AmbientContext\Singleton.AmbientContext.csproj", "{8A511B3F-8C20-4AB4-915D-284E8CFF12CC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Adapter", "6. Adapter", "{1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. Adapter", "06. Adapter", "{1ED8E637-22B7-4012-B1C7-D7CD1F8AF268}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.AdapterWithCaching", "Adapter.Adapter\Adapter.AdapterWithCaching.csproj", "{81F9E6E3-D5C5-47CB-AD1A-EC0F0260AC84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.AdapterNoCaching", "Adapter.AdapterNoCaching\Adapter.AdapterNoCaching.csproj", "{A43B7035-AB02-463E-A857-EFAABA0BFD94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.AdapterNoCaching", "Adapter.AdapterNoCaching\Adapter.AdapterNoCaching.csproj", "{A43B7035-AB02-463E-A857-EFAABA0BFD94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.GenericValueAdapter", "Adapter.GenericValueAdapter\Adapter.GenericValueAdapter.csproj", "{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.GenericValueAdapter", "Adapter.GenericValueAdapter\Adapter.GenericValueAdapter.csproj", "{26D3217D-A2D4-4BE5-B9D2-C7625090A7B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.DependencyInjection", "Adapter.DependencyInjection\Adapter.DependencyInjection.csproj", "{731DCC99-39D0-4FE9-8B00-F93B434B4795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.DependencyInjection", "Adapter.DependencyInjection\Adapter.DependencyInjection.csproj", "{731DCC99-39D0-4FE9-8B00-F93B434B4795}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7. Bridge", "7. Bridge", "{351650DC-CF8B-4E11-B73C-FC8769B9D945}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. Bridge", "07. Bridge", "{351650DC-CF8B-4E11-B73C-FC8769B9D945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.Bridge", "Bridge.Bridge\Bridge.Bridge.csproj", "{8AFC23E5-9E50-479E-A4F5-5DA8385CB793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge.Bridge", "Bridge.Bridge\Bridge.Bridge.csproj", "{8AFC23E5-9E50-479E-A4F5-5DA8385CB793}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Composite", "8. Composite", "{C4FFF0B3-0969-4DC7-BB52-A742689C0AEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. Composite", "08. Composite", "{C4FFF0B3-0969-4DC7-BB52-A742689C0AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.Composite", "Composite.Composite\Composite.Composite.csproj", "{6C995562-1326-4749-9932-75617C286593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite.Composite", "Composite.Composite\Composite.Composite.csproj", "{6C995562-1326-4749-9932-75617C286593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.NewralNetworks", "Composite.NewralNetworks\Composite.NewralNetworks.csproj", "{19336AE8-4572-49A3-9F1C-65FBF5DBC0E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite.NewralNetworks", "Composite.NewralNetworks\Composite.NewralNetworks.csproj", "{19336AE8-4572-49A3-9F1C-65FBF5DBC0E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.BridgeDoFactory", "Bridge.BridgeDoFactory\Bridge.BridgeDoFactory.csproj", "{A24F4DE6-AE4E-438D-A650-0421C40E41CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge.BridgeDoFactory", "Bridge.BridgeDoFactory\Bridge.BridgeDoFactory.csproj", "{A24F4DE6-AE4E-438D-A650-0421C40E41CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite.CompositeDoFactory", "Composite.CompositeDoFactory\Composite.CompositeDoFactory.csproj", "{ADB52BFD-46F1-4CFA-8EDE-2A8F19BA8E66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite.CompositeDoFactory", "Composite.CompositeDoFactory\Composite.CompositeDoFactory.csproj", "{ADB52BFD-46F1-4CFA-8EDE-2A8F19BA8E66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Decorator", "09. Decorator", "{59F98254-E42C-49E1-B471-64CA9AD5684A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.Decorator", "Decorator.Decorator\Decorator.Decorator.csproj", "{9460E539-CD13-417E-BECA-EADFDA1B2401}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.MultipleInheritance", "Decorator.MultipleInheritance\Decorator.MultipleInheritance.csproj", "{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.MultipleInheritanceWithDefaultInterface", "Decorator.MultipleInheritanceWithDefaultInterface\Decorator.MultipleInheritanceWithDefaultInterface.csproj", "{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DecoratorComposition", "Decorator.DecoratorComposition\Decorator.DecoratorComposition.csproj", "{93A42EA4-54FB-44DF-B815-DD5E6358DB71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DependencyInjection", "Decorator.DependencyInjection\Decorator.DependencyInjection.csproj", "{09B7910F-615F-4C05-94CE-E05234809B3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -169,6 +181,26 @@ Global
 		{ADB52BFD-46F1-4CFA-8EDE-2A8F19BA8E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB52BFD-46F1-4CFA-8EDE-2A8F19BA8E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB52BFD-46F1-4CFA-8EDE-2A8F19BA8E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9460E539-CD13-417E-BECA-EADFDA1B2401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9460E539-CD13-417E-BECA-EADFDA1B2401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9460E539-CD13-417E-BECA-EADFDA1B2401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9460E539-CD13-417E-BECA-EADFDA1B2401}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A42EA4-54FB-44DF-B815-DD5E6358DB71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A42EA4-54FB-44DF-B815-DD5E6358DB71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A42EA4-54FB-44DF-B815-DD5E6358DB71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A42EA4-54FB-44DF-B815-DD5E6358DB71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B7910F-615F-4C05-94CE-E05234809B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B7910F-615F-4C05-94CE-E05234809B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B7910F-615F-4C05-94CE-E05234809B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B7910F-615F-4C05-94CE-E05234809B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -198,6 +230,11 @@ Global
 		{19336AE8-4572-49A3-9F1C-65FBF5DBC0E3} = {C4FFF0B3-0969-4DC7-BB52-A742689C0AEC}
 		{A24F4DE6-AE4E-438D-A650-0421C40E41CF} = {351650DC-CF8B-4E11-B73C-FC8769B9D945}
 		{ADB52BFD-46F1-4CFA-8EDE-2A8F19BA8E66} = {C4FFF0B3-0969-4DC7-BB52-A742689C0AEC}
+		{9460E539-CD13-417E-BECA-EADFDA1B2401} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
+		{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
+		{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
+		{93A42EA4-54FB-44DF-B815-DD5E6358DB71} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
+		{09B7910F-615F-4C05-94CE-E05234809B3E} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}

@@ -56,27 +56,28 @@ namespace Bridge.Bridge
             radius *= factor;
         }
     }
+
     class Program
     {
         static void Main(string[] args)
         {
-            ////IRenderer renderer = new RasterRender();
-            //var renderer = new VectorRender();
-            //var circle = new Circle(renderer, 5);
-            //circle.Draw();
-            //circle.Resize(2);
-            //circle.Draw();
+            //IRenderer renderer = new RasterRender();
+            var renderer = new RasterRender();
+            var circle = new Circle(renderer, 5);
+            circle.Draw();
+            circle.Resize(2);
+            circle.Draw();
 
-            var cb = new ContainerBuilder();
-            cb.RegisterType<VectorRender>().As<IRenderer>().SingleInstance(); //Singleton
-            cb.Register((c, p) => new Circle(c.Resolve<IRenderer>(), p.Positional<float>(0)));
-            using (var c = cb.Build())
-            {
-                var circle = c.Resolve<Circle>(new PositionalParameter(0, 5.0f));
-                circle.Draw();
-                circle.Resize(2.0f);
-                circle.Draw();
-            }
+            //var cb = new ContainerBuilder();
+            //cb.RegisterType<VectorRender>().As<IRenderer>().SingleInstance(); //Singleton
+            //cb.Register((c, p) => new Circle(c.Resolve<IRenderer>(), p.Positional<float>(0)));
+            //using (var c = cb.Build())
+            //{
+            //    var circle = c.Resolve<Circle>(new PositionalParameter(0, 5.0f));
+            //    circle.Draw();
+            //    circle.Resize(2.0f);
+            //    circle.Draw();
+            //}
 
         }
     }
