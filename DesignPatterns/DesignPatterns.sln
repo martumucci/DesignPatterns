@@ -71,17 +71,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. Decorator", "09. Decora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.Decorator", "Decorator.Decorator\Decorator.Decorator.csproj", "{9460E539-CD13-417E-BECA-EADFDA1B2401}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.MultipleInheritance", "Decorator.MultipleInheritance\Decorator.MultipleInheritance.csproj", "{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.MultipleInheritance", "Decorator.MultipleInheritance\Decorator.MultipleInheritance.csproj", "{3AA6D9A5-63C6-406F-87A7-8EC9623AD98F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.MultipleInheritanceWithDefaultInterface", "Decorator.MultipleInheritanceWithDefaultInterface\Decorator.MultipleInheritanceWithDefaultInterface.csproj", "{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.MultipleInheritanceWithDefaultInterface", "Decorator.MultipleInheritanceWithDefaultInterface\Decorator.MultipleInheritanceWithDefaultInterface.csproj", "{1FA52EA0-3E1A-4138-B4EA-43D81F1DB486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DecoratorComposition", "Decorator.DecoratorComposition\Decorator.DecoratorComposition.csproj", "{93A42EA4-54FB-44DF-B815-DD5E6358DB71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.DecoratorComposition", "Decorator.DecoratorComposition\Decorator.DecoratorComposition.csproj", "{93A42EA4-54FB-44DF-B815-DD5E6358DB71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DependencyInjection", "Decorator.DependencyInjection\Decorator.DependencyInjection.csproj", "{09B7910F-615F-4C05-94CE-E05234809B3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator.DependencyInjection", "Decorator.DependencyInjection\Decorator.DependencyInjection.csproj", "{09B7910F-615F-4C05-94CE-E05234809B3E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Facade", "10. Facade", "{1684D2CE-F7BA-4D33-AFC6-1596FC2E75F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade.Facade", "Facade.Facade\Facade.Facade.csproj", "{3E1743E8-8105-4CD0-B4BA-3FC9CFD4FB7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade.Facade", "Facade.Facade\Facade.Facade.csproj", "{3E1743E8-8105-4CD0-B4BA-3FC9CFD4FB7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Flyweight", "11. Flyweight", "{002B09F5-A9BB-4E51-8180-A44AA061B76F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyWeight.Flyweight", "FlyWeight.Flyweight\FlyWeight.Flyweight.csproj", "{E72F326B-DB60-4B1E-9DDC-CA0309A7D498}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight.TextFormatting", "Flyweight.TextFormatting\Flyweight.TextFormatting.csproj", "{1A6FD695-A1BE-4277-8433-744067B818B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator.DecoratorDoFactory", "Decorator.DecoratorDoFactory\Decorator.DecoratorDoFactory.csproj", "{9172A57D-D010-42C3-A161-02CAE7FB3828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +217,18 @@ Global
 		{3E1743E8-8105-4CD0-B4BA-3FC9CFD4FB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E1743E8-8105-4CD0-B4BA-3FC9CFD4FB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E1743E8-8105-4CD0-B4BA-3FC9CFD4FB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72F326B-DB60-4B1E-9DDC-CA0309A7D498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72F326B-DB60-4B1E-9DDC-CA0309A7D498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72F326B-DB60-4B1E-9DDC-CA0309A7D498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72F326B-DB60-4B1E-9DDC-CA0309A7D498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6FD695-A1BE-4277-8433-744067B818B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6FD695-A1BE-4277-8433-744067B818B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6FD695-A1BE-4277-8433-744067B818B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6FD695-A1BE-4277-8433-744067B818B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9172A57D-D010-42C3-A161-02CAE7FB3828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9172A57D-D010-42C3-A161-02CAE7FB3828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9172A57D-D010-42C3-A161-02CAE7FB3828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9172A57D-D010-42C3-A161-02CAE7FB3828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +264,9 @@ Global
 		{93A42EA4-54FB-44DF-B815-DD5E6358DB71} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
 		{09B7910F-615F-4C05-94CE-E05234809B3E} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
 		{3E1743E8-8105-4CD0-B4BA-3FC9CFD4FB7B} = {1684D2CE-F7BA-4D33-AFC6-1596FC2E75F2}
+		{E72F326B-DB60-4B1E-9DDC-CA0309A7D498} = {002B09F5-A9BB-4E51-8180-A44AA061B76F}
+		{1A6FD695-A1BE-4277-8433-744067B818B5} = {002B09F5-A9BB-4E51-8180-A44AA061B76F}
+		{9172A57D-D010-42C3-A161-02CAE7FB3828} = {59F98254-E42C-49E1-B471-64CA9AD5684A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
