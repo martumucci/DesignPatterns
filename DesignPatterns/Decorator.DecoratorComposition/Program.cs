@@ -29,6 +29,19 @@ namespace Decorator.DecoratorComposition
         }
     }
 
+    public class Triangle : IShape
+    {
+        public float side;
+        public Triangle(float side)
+        {
+            this.side = side;
+        }
+        public string AsString()
+        {
+            return $"A triangle with side {side}";
+        }
+    }
+
     public class Square : IShape
     {
         private float side;
@@ -67,6 +80,22 @@ namespace Decorator.DecoratorComposition
         public string AsString() => $"{shape.AsString()} has {transparency * 100.0}% transparency";
     }
 
+    public class TexturedShape : IShape
+    {
+        private IShape shape;
+        private string texture;
+        public TexturedShape(IShape shape, string texture)
+        {
+            this.shape = shape ?? throw new ArgumentNullException(paramName: nameof(shape));
+            this.texture = texture;
+        }
+
+        public string AsString()
+        {
+            return $"{shape.AsString()} has {texture} texture";
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -79,6 +108,12 @@ namespace Decorator.DecoratorComposition
 
             var transparentSquare = new TransparentShape(redSquare, 0.5f);
             WriteLine(transparentSquare.AsString());
+
+            var triangle = new Triangle(1.0f);
+            WriteLine(triangle.AsString());
+
+            var texturedTriangle = new TexturedShape(triangle, "polka dotted");
+            WriteLine(texturedTriangle.AsString());
         }
     }
 }
