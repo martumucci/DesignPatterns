@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Mediator.DoFactory
+namespace MediatorPattern.DoFactory
 {/// <summary>
 
  /// MainApp startup class for Real-World 

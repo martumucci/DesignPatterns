@@ -90,7 +90,10 @@ namespace Memento.UndoAndRedo
             WriteLine($"Undo 2: {ba}");
 
             ba.Redo();
-            WriteLine($"Redo: {ba}");
+            WriteLine($"Redo1: {ba}");
+
+            ba.Redo();
+            WriteLine($"Redo2: {ba}");
 
 
         }

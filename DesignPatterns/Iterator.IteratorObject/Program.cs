@@ -83,9 +83,11 @@ namespace Iterator.IteratorObject
         static void Main(string[] args)
         {
             //   1
+            //  / \
             // 2   3
+            //4 5 6 7
 
-            var root = new Node<int>(1, new Node<int>(2), new Node<int>(3));
+            var root = new Node<int>(1, new Node<int>(2, new Node<int>(4), new Node<int>(5)), new Node<int>(3, new Node<int>(6), new Node<int>(7)));
             var it = new InOrderIterator<int>(root);
             while (it.MoveNext())
             {

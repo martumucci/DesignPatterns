@@ -3,7 +3,7 @@ using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using Autofac;
 
-namespace Mediator.EventBroker
+namespace MediatorPattern.EventBroker
 {
     public class Actor
     {
@@ -120,7 +120,7 @@ namespace Mediator.EventBroker
 
     public class Demo
     {
-        static void MainB(string[] args)
+        static void Main(string[] args)
         {
             var cb = new ContainerBuilder();
             cb.RegisterType<EventBroker>().SingleInstance();
