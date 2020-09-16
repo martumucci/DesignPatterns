@@ -146,19 +146,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator.ArrayBackedPropert
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17. Mediator", "17. Mediator", "{E1808999-1CFB-4A93-8C9A-13242FAF4D5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.Mediator", "Mediator.Mediator\Mediator.Mediator.csproj", "{51B674A8-206B-4FBE-82BC-2323AE44BCFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern.Mediator", "Mediator.Mediator\MediatorPattern.Mediator.csproj", "{51B674A8-206B-4FBE-82BC-2323AE44BCFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.DoFactory", "Mediator.DoFactory\Mediator.DoFactory.csproj", "{9999BAB6-798C-47D7-9BC2-36C64C1BB6CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern.DoFactory", "Mediator.DoFactory\MediatorPattern.DoFactory.csproj", "{9999BAB6-798C-47D7-9BC2-36C64C1BB6CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.EventBroker", "Mediator.EventBroker\Mediator.EventBroker.csproj", "{D0DFB82C-8106-45B7-AE5C-4987B295BD4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern.EventBroker", "Mediator.EventBroker\MediatorPattern.EventBroker.csproj", "{D0DFB82C-8106-45B7-AE5C-4987B295BD4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator.MediatR", "Mediator.MediatR\Mediator.MediatR.csproj", "{39EE5A62-76EC-4C95-8982-DC7459ADA2C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern.MediatR", "Mediator.MediatR\MediatorPattern.MediatR.csproj", "{39EE5A62-76EC-4C95-8982-DC7459ADA2C2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18. Memento", "18. Memento", "{31B14BB5-1975-4604-A8B7-76D98233313F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.Memento", "Memento.Memento\Memento.Memento.csproj", "{4D96F6AD-194D-4C83-AB51-147E5905681B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento.Memento", "Memento.Memento\Memento.Memento.csproj", "{4D96F6AD-194D-4C83-AB51-147E5905681B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento.UndoAndRedo", "Memento.UndoAndRedo\Memento.UndoAndRedo.csproj", "{83590A27-C313-4A6A-BD8B-A45FA3147A69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento.UndoAndRedo", "Memento.UndoAndRedo\Memento.UndoAndRedo.csproj", "{83590A27-C313-4A6A-BD8B-A45FA3147A69}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator.IteratorDoFactory", "Iterator.IteratorDoFactory\Iterator.IteratorDoFactory.csproj", "{F80686D3-58C2-47AF-96DA-236F31B702B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. Null Object", "19. Null Object", "{99C5E26F-DC36-4483-BAD0-590A4CE1AEA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject.NullObject", "NullObject.NullObject\NullObject.NullObject.csproj", "{38545848-9966-4B04-B22B-117393866AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject.DynamicNullObject", "NullObject.DynamicNullObject\NullObject.DynamicNullObject.csproj", "{9E86E16E-A821-4C93-B492-9B7C9BE23E92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -402,6 +410,18 @@ Global
 		{83590A27-C313-4A6A-BD8B-A45FA3147A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83590A27-C313-4A6A-BD8B-A45FA3147A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83590A27-C313-4A6A-BD8B-A45FA3147A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80686D3-58C2-47AF-96DA-236F31B702B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80686D3-58C2-47AF-96DA-236F31B702B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80686D3-58C2-47AF-96DA-236F31B702B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80686D3-58C2-47AF-96DA-236F31B702B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38545848-9966-4B04-B22B-117393866AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38545848-9966-4B04-B22B-117393866AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38545848-9966-4B04-B22B-117393866AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38545848-9966-4B04-B22B-117393866AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E86E16E-A821-4C93-B492-9B7C9BE23E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E86E16E-A821-4C93-B492-9B7C9BE23E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E86E16E-A821-4C93-B492-9B7C9BE23E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E86E16E-A821-4C93-B492-9B7C9BE23E92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -466,6 +486,9 @@ Global
 		{39EE5A62-76EC-4C95-8982-DC7459ADA2C2} = {E1808999-1CFB-4A93-8C9A-13242FAF4D5C}
 		{4D96F6AD-194D-4C83-AB51-147E5905681B} = {31B14BB5-1975-4604-A8B7-76D98233313F}
 		{83590A27-C313-4A6A-BD8B-A45FA3147A69} = {31B14BB5-1975-4604-A8B7-76D98233313F}
+		{F80686D3-58C2-47AF-96DA-236F31B702B4} = {99EA5831-7188-4005-B7C3-0BADA7DFCEBC}
+		{38545848-9966-4B04-B22B-117393866AD2} = {99C5E26F-DC36-4483-BAD0-590A4CE1AEA9}
+		{9E86E16E-A821-4C93-B492-9B7C9BE23E92} = {99C5E26F-DC36-4483-BAD0-590A4CE1AEA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
