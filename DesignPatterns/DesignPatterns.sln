@@ -166,23 +166,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "19. Null Object", "19. Null
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject.NullObject", "NullObject.NullObject\NullObject.NullObject.csproj", "{38545848-9966-4B04-B22B-117393866AD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject.DynamicNullObject", "NullObject.DynamicNullObject\NullObject.DynamicNullObject.csproj", "{9E86E16E-A821-4C93-B492-9B7C9BE23E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject.DynamicNullObject", "NullObject.DynamicNullObject\NullObject.DynamicNullObject.csproj", "{9E86E16E-A821-4C93-B492-9B7C9BE23E92}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20. Observer", "20. Observer", "{06AEAAB1-B94B-43F8-B026-CCA505D14308}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Observer", "Observer.Observer\Observer.Observer.csproj", "{B1C39604-066F-4CD5-A1A2-9DB88A6BF51B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.Observer", "Observer.Observer\Observer.Observer.csproj", "{B1C39604-066F-4CD5-A1A2-9DB88A6BF51B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.WeakEventPattern", "Observer.WeakEventPattern\Observer.WeakEventPattern.csproj", "{AFF6BDED-2A1F-4D07-A5C0-C16D983D8686}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.WeakEventPattern", "Observer.WeakEventPattern\Observer.WeakEventPattern.csproj", "{AFF6BDED-2A1F-4D07-A5C0-C16D983D8686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.ObserverViaSpecialInterfaces", "Observer.ObserverViaSpecialInterfaces\Observer.ObserverViaSpecialInterfaces.csproj", "{980AB7D0-1699-443A-B68D-39DEE5A4C97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.ObserverViaSpecialInterfaces", "Observer.ObserverViaSpecialInterfaces\Observer.ObserverViaSpecialInterfaces.csproj", "{980AB7D0-1699-443A-B68D-39DEE5A4C97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.ObservableCollections", "Observer.ObservableCollections\Observer.ObservableCollections.csproj", "{8D4A492D-BF0D-44D4-B4E0-463909EE911F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.ObservableCollections", "Observer.ObservableCollections\Observer.ObservableCollections.csproj", "{8D4A492D-BF0D-44D4-B4E0-463909EE911F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.BidirectionalObserver", "Observer.BidirectionalObserver\Observer.BidirectionalObserver.csproj", "{BCFC90A0-FD4F-415B-96AB-C032910A21FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.BidirectionalObserver", "Observer.BidirectionalObserver\Observer.BidirectionalObserver.csproj", "{BCFC90A0-FD4F-415B-96AB-C032910A21FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.PropertyDependencies", "Observer.PropertyDependencies\Observer.PropertyDependencies.csproj", "{7AEF68A5-2B27-4576-BC86-7CABAEF90CC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.PropertyDependencies", "Observer.PropertyDependencies\Observer.PropertyDependencies.csproj", "{7AEF68A5-2B27-4576-BC86-7CABAEF90CC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.DeclarativeEventSubscriptionsWithInterfaces", "Observer.DeclarativeEventSubscriptionsWithInterfaces\Observer.DeclarativeEventSubscriptionsWithInterfaces.csproj", "{8654A9A0-69FF-4039-86F0-D5273A9BF45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer.DeclarativeEventSubscriptionsWithInterfaces", "Observer.DeclarativeEventSubscriptionsWithInterfaces\Observer.DeclarativeEventSubscriptionsWithInterfaces.csproj", "{8654A9A0-69FF-4039-86F0-D5273A9BF45A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "21. State", "21. State", "{94407597-5B59-465C-B29E-373CFCAA3DD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State.ClassicState", "State.ClassicState\State.ClassicState.csproj", "{729D3F85-9541-4EFD-A549-81E0002E08BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State.HandmadeStateMachine", "State.HandmadeStateMachine\State.HandmadeStateMachine.csproj", "{832F2B12-8A7F-453D-8F0C-07B367146135}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State.SwitchBasedStateMachine", "State.SwitchBasedStateMachine\State.SwitchBasedStateMachine.csproj", "{762AF969-E11E-4D8B-B099-E0213BE9CDE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.SwitchExpressions", "State.SwitchExpressions\State.SwitchExpressions.csproj", "{87F04E09-51BD-409E-A913-7C21F52073E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State.StateMachinesWithStateless", "State.StateMachinesWithStateless\State.StateMachinesWithStateless.csproj", "{7CF825F9-AA48-4BF2-8641-C8604DB16606}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -466,6 +478,26 @@ Global
 		{8654A9A0-69FF-4039-86F0-D5273A9BF45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8654A9A0-69FF-4039-86F0-D5273A9BF45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8654A9A0-69FF-4039-86F0-D5273A9BF45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729D3F85-9541-4EFD-A549-81E0002E08BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729D3F85-9541-4EFD-A549-81E0002E08BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729D3F85-9541-4EFD-A549-81E0002E08BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729D3F85-9541-4EFD-A549-81E0002E08BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832F2B12-8A7F-453D-8F0C-07B367146135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832F2B12-8A7F-453D-8F0C-07B367146135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832F2B12-8A7F-453D-8F0C-07B367146135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832F2B12-8A7F-453D-8F0C-07B367146135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762AF969-E11E-4D8B-B099-E0213BE9CDE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762AF969-E11E-4D8B-B099-E0213BE9CDE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762AF969-E11E-4D8B-B099-E0213BE9CDE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762AF969-E11E-4D8B-B099-E0213BE9CDE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F04E09-51BD-409E-A913-7C21F52073E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F04E09-51BD-409E-A913-7C21F52073E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F04E09-51BD-409E-A913-7C21F52073E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F04E09-51BD-409E-A913-7C21F52073E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF825F9-AA48-4BF2-8641-C8604DB16606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF825F9-AA48-4BF2-8641-C8604DB16606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF825F9-AA48-4BF2-8641-C8604DB16606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF825F9-AA48-4BF2-8641-C8604DB16606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -540,6 +572,11 @@ Global
 		{BCFC90A0-FD4F-415B-96AB-C032910A21FA} = {06AEAAB1-B94B-43F8-B026-CCA505D14308}
 		{7AEF68A5-2B27-4576-BC86-7CABAEF90CC0} = {06AEAAB1-B94B-43F8-B026-CCA505D14308}
 		{8654A9A0-69FF-4039-86F0-D5273A9BF45A} = {06AEAAB1-B94B-43F8-B026-CCA505D14308}
+		{729D3F85-9541-4EFD-A549-81E0002E08BC} = {94407597-5B59-465C-B29E-373CFCAA3DD6}
+		{832F2B12-8A7F-453D-8F0C-07B367146135} = {94407597-5B59-465C-B29E-373CFCAA3DD6}
+		{762AF969-E11E-4D8B-B099-E0213BE9CDE9} = {94407597-5B59-465C-B29E-373CFCAA3DD6}
+		{87F04E09-51BD-409E-A913-7C21F52073E6} = {94407597-5B59-465C-B29E-373CFCAA3DD6}
+		{7CF825F9-AA48-4BF2-8641-C8604DB16606} = {94407597-5B59-465C-B29E-373CFCAA3DD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7545F495-6A28-45AE-A645-CE4DC3B877EF}
